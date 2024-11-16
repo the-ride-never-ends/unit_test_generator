@@ -1,0 +1,11 @@
+[project]
+name = "unit_test_generator"
+version = "0.1.0"
+authors = "Claude 3.5 Sonnet <NA>, Kyle Rose <kylemail1946@gmail.com>"
+description = "UnitTestGenerator is a module designed for programmatically generating unit tests."
+license = "MIT"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[tool.hatch.build.targets.wheel]
+packages = ["unit_test_generator"]
